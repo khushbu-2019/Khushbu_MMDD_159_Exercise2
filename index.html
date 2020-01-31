@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html land="en">
+    <head>
+    <title>Creating a Form Using HTML5 / CSS3.</title>
+    <meta charset="tf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Sign up.</h1>
+            <form>
+                <div class="field">
+                    <label for="Username">USERNAME</label>
+                    <br>
+                    <input type="text" id="Username" placeholder="johnnyapple1234"autocomplete="on" >
+                    <br>
+                    <br>
+                    <label for="Firstname">FIRST NAME</label>
+                    <br>
+                    <input type="text" id="Firstname" placeholder="Johnny" maxlength="15" autocomplete="on">
+                    <br>
+                    <br>
+                    <label for="Email">E-MAIL</label>
+                    <br>
+                    <input type="email" name="email" id="E-mail" placeholder="johnnyapple@apple.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required autocomplete="on">
+                    <br>
+                    <button type="submit">SUMBIT</button>
+                </div>
+                <div class="field">
+                    <label for=Password>PASSWORD</label>
+                    <br>
+                    <input type="password" id="Password" placedholder="••••••••••" placeholder="Must contain at least 8 characters" autocomplete="on">
+                    <br>
+                    <br>
+                    <label for="Lastname">LAST NAME</label>
+                    <br>
+                    <input type="text" id="Lastname" placeholder="Appleseed" maxlength="15" autocomplete="on">
+                    <br>
+                    <br>
+                    <label for="Telephone">TELEPHONE</label>
+                    <br>
+                    <input type="tel" id="Telephone" placeholder="(123)-456-7890" pattern="([0-9]{3})-[0-9]{3}-[0-9]{4}"required autocomplete="on">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
